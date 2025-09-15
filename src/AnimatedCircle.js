@@ -2,6 +2,7 @@ import React from 'react';
 
 const AnimatedCircle = () => {
   return (
+
     <div className="min-h-screen bg-gray-50 flex items-center justify-center relative overflow-hidden">
       {/* Header with logo */}
       <div className="absolute top-6 left-6">
@@ -34,14 +35,14 @@ const AnimatedCircle = () => {
         <div 
           className="w-64 h-64 rounded-full"
           style={{
-            background: 'radial-gradient(circle at 30% 30%, #FFA726, #FF7043)',
+            background: 'radial-gradient(circle at 30% 30%,rgb(99, 38, 255),rgb(255, 67, 180))',
             animation: 'float 6s ease-in-out infinite, pulse 4s ease-in-out infinite alternate'
           }}
         ></div>
         
         {/* Subtitle text */}
         <div className="text-center mt-8">
-          <p className="text-gray-600 text-lg">[subtitle text here]</p>
+          <p className="text-gray-600 text-lg">[subtitle text here!!!]</p>
         </div>
       </div>
 

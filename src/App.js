@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
+import VoiceTest from "./components/VoiceTest";
+
 
 function App() {
   const [showModal, setShowModal] = useState(false);
@@ -53,6 +55,7 @@ function App() {
       <div className="main">
         <div className="center-circle" onClick={handleCenterCircleClick}></div>
         <div className="subtitle">[subtitle text here]</div>
+        <VoiceTest />
       </div>
 
       {/* Mic Button */}
